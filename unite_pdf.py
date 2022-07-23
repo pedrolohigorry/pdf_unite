@@ -8,10 +8,8 @@ import PyPDF2
 mergeFile = PyPDF2.PdfFileMerger()
 
 # Pedimos el número de archivo inicial y final
-i = input("Ingresar el número de archivo incial = ")
-i = int(i)
-n = input("Ingresar el número de archvio final = ")
-n = int(n)
+i = int(input("Ingresar el número de archivo incial = "))
+n = int(input("Ingresar el número de archvio final = "))
 
 # Se van agregando los archivos de forma incremental, primero el 1, luego el 2, ..., hasta el n.
 while i <= n :
